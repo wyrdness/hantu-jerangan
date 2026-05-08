@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/hantu-jerangan",
     "maintainers": [
       {
@@ -16,72 +16,100 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "hantu-jerangan",
-    "name": "Hantu Jerangan: The Fishing Net Ghost of Malaysia",
-    "aliases": [],
-    "category": "OF_HANTU_(SPIRITS_OR_GHOSTS),_SPECIFICALLY_THOSE_ASSOCIATED_WITH_WATER_AND_THE_SEA._MALAYSIAN_FOLKLORE_RECOGNIZES_NUMEROUS_TYPES_OF_HANTU,_EACH_WITH_SPECIFIC_CHARACTERISTICS,_HABITATS,_AND_BEHAVIORS._WATER-RELATED_HANTU_ARE_PARTICULARLY_SIGNIFICANT_IN_A_NATION_WHERE_FISHING_AND_MARITIME_TRADE_HAVE_BEEN_CENTRAL_TO_CULTURE_AND_ECONOMY_FOR_MILLENNIA._THE_HANTU_JERANGAN_SPECIFICALLY_EMBODIES_THE_TREACHEROUS_NATURE_OF_FISHING—AN_OCCUPATION_THAT,",
-    "subcategory": "of entity but part of broader Malay supernatural beliefs",
+    "name": "Hantu Jerangan",
+    "aliases": [
+      { "name": "Fishing-net ghost", "language": "English", "meaning": "Common English gloss" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Maritime spirit",
     "tags": [
-      "folklore",
-      "mythology"
+      "malay-folklore",
+      "maritime",
+      "fishing",
+      "hantu",
+      "regional-tradition"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Hantu Jerangan represents one of the most distinctive and feared supernatural entities in Malaysian coastal folklore, embodying the dangers of the sea and the perils faced by fishing communities.",
-      "full": "The Hantu Jerangan represents one of the most distinctive and feared supernatural entities in Malaysian coastal folklore, embodying the dangers of the sea and the perils faced by fishing communities. This malevolent spirit is intimately connected to fishing nets (jerangan in Malay), manifesting as a ghostly net or net-wielding entity that ensnares fishermen, drags them into the water, and drowns them. The creature exemplifies how maritime communities personify the constant dangers of their occupation through supernatural narratives that serve both as warnings and as explanatory frameworks for tragic deaths at sea. In Malay supernatural taxonomy, the Hantu Jerangan belongs to the broader category of hantu (spirits or ghosts), specifically those associated with water and the sea. Malaysian folklore recognizes numerous types of hantu, each with specific characteristics, habitats, and behaviors. Water-related hantu are particularly significant in a nation where fishing and maritime trade have been central to culture and economy for millennia. The Hantu Jerangan specifically embodies the treacherous nature of fishing—an occupation that, despite providing livelihood, constantly threatens life. Traditional fishing communities along Malaysia's coasts maintain active belief in the Hantu Jerangan, incorporating this fear into practical fishing behavior, rituals, and taboos designed to protect against supernatural dangers. While urbanization and modernization have diminished some traditional beliefs, fishing villages and communities that maintain close connections to the sea continue to respect and fear the Hantu Jerangan, passing stories and protective practices from generation to generation. The Hantu Jerangan narrative serves multiple functions beyond literal belief in a supernatural entity. It reinforces safe fishing practices, provides psychological frameworks for coping with the inherent dangers of maritime work, maintains cultural continuity through shared belief systems, and offers explanatory narratives for otherwise inexplicable drownings and disappearances at sea."
+      "summary": "Hantu Jerangan is a regional Malay fishing-community spirit said to be associated with fishing nets and unexplained drownings at sea. It is a relatively obscure figure within the broader hantu taxonomy and is documented mainly in coastal Malaysian oral tradition rather than in major published ethnographies.",
+      "full": "Hantu Jerangan is a Malay folkloric spirit reported in fishing communities along Malaysia's coasts. As with other hantu laut (sea spirits) and hantu-air-related entities, it functions as a supernatural explanation for unexplained drownings, lost fishermen, and dangerous conditions at sea, and reinforces traditional taboos and protective practices around fishing. The figure is distinct from better-attested Malay maritime spirits such as Hantu Laut, Hantu Jerambang, and Hantu Balung Bidai, but is commonly grouped with them as part of the broader Malay water-spirit complex. Available documentation in mainstream English-language sources is thin; most references are confined to community-level oral tradition and Malaysian-language folklore reportage. Where it is described, the entity is associated specifically with the dangers of fishing-net work and is invoked to caution fishermen against tangling, working alone, or transgressing customary maritime taboos."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Malay: hantu ('ghost' or 'spirit'); 'jerangan' is reported in coastal-community usage in connection with nets/fishing-gear contexts. Precise lexical history not well documented.",
+      "meaning": "Reported as 'fishing-net ghost' in popular English sources; the precise Malay sense is uncertain in published references.",
+      "first_use": "Not documented in major ethnographies; recorded in modern Malaysian folkloric reportage."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "OF_HANTU_(SPIRITS_OR_GHOSTS),_SPECIFICALLY_THOSE_ASSOCIATED_WITH_WATER_AND_THE_SEA._MALAYSIAN_FOLKLORE_RECOGNIZES_NUMEROUS_TYPES_OF_HANTU,_EACH_WITH_SPECIFIC_CHARACTERISTICS,_HABITATS,_AND_BEHAVIORS._WATER-RELATED_HANTU_ARE_PARTICULARLY_SIGNIFICANT_IN_A_NATION_WHERE_FISHING_AND_MARITIME_TRADE_HAVE_BEEN_CENTRAL_TO_CULTURE_AND_ECONOMY_FOR_MILLENNIA._THE_HANTU_JERANGAN_SPECIFICALLY_EMBODIES_THE_TREACHEROUS_NATURE_OF_FISHING—AN_OCCUPATION_THAT,",
-      "type": "of entity but part of broader Malay supernatural beliefs",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Maritime spirit",
+      "subtype": "Fishing-related hantu",
+      "variant": "Coastal Malay"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hantu-air", "name": "Hantu Air", "relationship": "related", "description": "Broad Malay water-spirit category" },
+      { "id": "hantu-laut", "name": "Hantu Laut", "relationship": "related", "description": "Malay sea-spirit category" },
+      { "id": "hantu-jerambang", "name": "Hantu Jerambang", "relationship": "similar", "description": "Malay maritime spirit said to cling to ships' masts" },
+      { "id": "hantu-balung-bidai", "name": "Hantu Balung Bidai", "relationship": "similar", "description": "Malay sea spirit feared for capsizing fishing boats" }
+    ]
   },
+
   "characteristics": {
     "physical": {
       "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "morphology": "No consistent physical description in available reputable sources."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Causing drowning", "description": "Blamed for unexplained drownings of fishermen", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Net-tangling / boat-mishap", "description": "Associated with mishaps involving fishing gear", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["coastal waters", "open sea", "fishing grounds"],
+      "diet": "Not applicable (spirit)",
+      "patterns": [
+        "Reported as targeting fishermen working alone or at night",
+        "Tied to coastal fishing villages rather than inland waters"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Coastal Malaysian fishing communities; not well documented in academic sources outside this region.",
+      "continents": ["Asia"],
+      "countries": ["Malaysia"],
+      "regions": [
+        "Coastal Peninsular Malaysia"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Modern oral tradition",
         "circa": true,
-        "source": "Traditional folklore"
+        "source": "Malay coastal-community oral tradition; not attested in major colonial-era ethnographies"
       }
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Part of the broader Malay animist substrate of hantu/water-spirit beliefs that personify the dangers of the sea for fishing communities.",
+      "earliest_accounts": "Not documented in early colonial-era ethnographies of Malay folk religion; appears in modern Malaysian folklore reporting and online ghost-story compilations.",
+      "folklore_connections": "Sits within the Malay maritime-spirit complex alongside Hantu Laut, Hantu Jerambang, and Hantu Balung Bidai."
     },
-    "timeline": []
+    "timeline": [],
+    "modern_era": "Hantu Jerangan retains local salience in some Malaysian fishing communities and appears in regional ghost-story compilations and digital folklore reportage, though it has not received substantial academic ethnographic treatment in widely-available English sources."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +120,67 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Maritime hantu",
+        "description": "Within Malay folk belief, Hantu Jerangan is one of several malevolent sea-spirits responsible for drownings and fishing accidents.",
+        "proponents": ["Coastal Malay folk tradition"],
+        "evidence_cited": ["Oral tradition in Malaysian fishing villages"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural-explanatory framework for fishing hazards",
+        "description": "The figure encodes the very real dangers of fishing — entanglement, drowning, capsizing — in supernatural narrative form, reinforcing safety practices and taboos.",
+        "proponents": ["Folklore studies of Maritime Southeast Asia"],
+        "evidence_cited": ["Comparable function of other Malay sea-spirit traditions"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
+      "traditions": [
+        "Coastal Malay fishing-community ghost lore"
+      ],
       "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "beliefs": "Belief survives mainly in older fishing communities; rarely encountered in urban Malaysian discourse outside ghost-story compilations."
+    },
+    "indigenous": {
+      "cultures": ["Coastal Malay"],
+      "significance": "Encodes traditional safety knowledge for fishing communities.",
+      "sensitivity_note": "Documentation in English-language sources is thin; treat regional claims with care and cite Malay-language sources where possible.",
+      "respect_guidelines": "Avoid embellishing the legend beyond what is supported by published sources."
     },
     "popular_culture": {
       "literature": [],
       "film_tv": [],
       "games": [],
+      "music": [],
       "other": []
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Hantu Jerangan has not received significant dedicated scholarly attention; further ethnographic work in Malay-language sources would be needed to confirm details of the legend."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wiki-ghosts-malay", "type": "website", "title": "Ghosts in Malay culture", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ghosts_in_Malay_culture", "accessed": "2026-05-07" },
+    { "id": "sinardaily-lesser-known-hantu", "type": "news", "title": "Seven lesser known demons and ghost in Malay folklore", "publication": "Sinar Daily", "url": "https://www.sinardaily.my/article/212838/culture/arts-culture/seven-lesser-known-demons-and-ghost-in-malay-folklore", "accessed": "2026-05-07" }
+  ]
 }
